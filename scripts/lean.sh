@@ -22,6 +22,8 @@ svn export https://github.com/openwrt/openwrt/trunk/package/network/services/hos
 git clone https://github.com/sbwml/luci-app-alist package/alist
 rm -rf feeds/packages/lang/golang
 svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
+svn export https://github.com/sbwml/luci-app-alist/trunk/luci-app-alist package/luci-app-alist
+svn export https://github.com/sbwml/luci-app-alist/trunk/alist package/alist
 
 mkdir package/community
 pushd package/community
